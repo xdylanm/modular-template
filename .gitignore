@@ -39,5 +39,5 @@ hardware/plots/
 # Python
 .venv/
 
-# Sphinx
-docs/build/
+# MkDocs
+site/

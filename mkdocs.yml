@@ -1,0 +1,22 @@
+site_name: Module
+site_author: xdylanm
+repo_url: https://github.com/xdylanm/modular-template
+nav:
+  - Home: index.md
+  - Design: theory.md
+  - Assembly: assembly.md
+  - Notebook: notebook.ipynb
+markdown_extensions: 
+  - pymdownx.arithmatex
+plugins:
+  - search
+  - include-markdown
+  - mkdocs-jupyter
+extra_javascript:
+  - scripts/arithmatex-config.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+exclude_docs: |
+  /assets/example_bom.*
+  /requirements.txt
+theme:
+  name: material
