@@ -13,10 +13,6 @@ Sometimes, a picture is worth a thousand words
 
 ![Filter response](assets/images/PN_filter_response.png)
 
-With mkdocs, the BOM can be included
-
-{%include-markdown "assets/example_bom.md"%}
-
 If an example of code is required, place it in the fenced code block:
 
 ```c++
